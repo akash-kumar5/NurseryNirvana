@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 section {
@@ -20,7 +21,7 @@ section {
 
 #home {
     
-    padding: 19%;
+    padding: 21%;
     background-image: url('tryhome.jpg');
     background-size : 100%;
 }
@@ -71,12 +72,12 @@ button:hover {
     background-color: #555;
 }
 
-footer {
+.footer,#about {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    
     bottom: 0;
     width: 100%;
 }
